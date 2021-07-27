@@ -20,47 +20,35 @@ $(document).ready(function () {
 
   // a default data nested arrary for treeview
   var defaultData = [{
-    text: 'Parent 1',
+    text: '22.3: Final Group Project - UX/UI/FE Design Challenge I',
     href: '#parent1',
-    tags: ['4'],
+    tags: ['7/21/21'],
     nodes: [{
-      text: 'Child 1',
+      text: 'Video Recording 1',
       href: '#child1',
-      tags: ['2'],
-      nodes: [{
-        text: 'Grandchild 1',
-        href: '#grandchild1',
-        tags: ['0']
-      },
-      {
-        text: 'Grandchild 2',
-        href: '#grandchild2',
-        tags: ['0']
-      }]
     },
     {
-      text: 'Child 2',
-      href: '#child2',
-      tags: ['0']
+      text: 'Video Recording 2',
+      href: '#child2', 
     }]
   },
   {
-    text: 'Parent 2',
+    text: '22.2: Final Group Project - UX/UI/FE Design Challenge I',
     href: '#parent2',
-    tags: ['0']
+    tags: ['7/19/21']
   },
   {
-    text: 'Parent 3',
+    text: '22.1: Final Group Project - UX/UI/FE Design Challenge I',
     href: '#parent3',
-    tags: ['0']
+    tags: ['7/17/21']
   }, {
-    text: 'Parent 4',
+    text: '21.3: Front End Development Processes',
     href: '#parent4',
-    tags: ['0']
+    tags: ['7/14/21']
   }, {
-    text: 'Parent 5',
+    text: '21.2: Front End Development Processes',
     href: '#parent5',
-    tags: ['0']
+    tags: ['7/12/21']
   }];
   // a alternateData  nested arrary for treeview
   var alternateData = [{
@@ -269,6 +257,7 @@ $(document).ready(function () {
     color: [$primary],
     showBorder: true,
     data: defaultData,
+    showTags: true,
   });
   // Searchable Tree's search and checkbox value save into variable here
   var search = function (e) {
