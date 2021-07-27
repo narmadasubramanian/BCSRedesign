@@ -78,6 +78,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+h5 {
+  
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -357,7 +361,6 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Rubik", Helvetica, Arial, serif;
   font-weight: 400;
   line-height: 1.2;
-  color: #475F7B;
 }
 
 h1, .h1 {
@@ -4484,6 +4487,13 @@ input[type="button"].btn-block {
   padding: 1.7rem;
 }
 
+.card-body-short {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.7rem;
+  padding-bottom: 0rem;
+}
+
 .card-title {
   margin-bottom: 1.4rem;
 }
@@ -4506,6 +4516,14 @@ input[type="button"].btn-block {
 }
 
 .card-header {
+  padding: 1.4rem 1.7rem;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 0px solid #dfe3e7;
+}
+
+.card-header-academic {
+  color: #5A8DEE;
   padding: 1.4rem 1.7rem;
   margin-bottom: 0;
   background-color: transparent;
