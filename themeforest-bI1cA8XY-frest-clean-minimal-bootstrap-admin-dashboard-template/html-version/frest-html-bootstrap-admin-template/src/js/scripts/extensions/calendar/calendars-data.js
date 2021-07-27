@@ -51,7 +51,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'My Calendar';
+  calendar.name = 'My Workshop';
   calendar.color = infoColor;
   calendar.bgColor = infoLight;
   calendar.dragBgColor = infoColor;
@@ -61,7 +61,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Company';
+  calendar.name = 'Session';
   calendar.color = primaryColor;
   calendar.bgColor = primaryLight;
   calendar.dragBgColor = primaryColor;
@@ -71,7 +71,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Family';
+  calendar.name = 'Career Services';
   calendar.color = secondaryColor;
   calendar.bgColor = secondaryLight;
   calendar.dragBgColor = secondaryColor;
@@ -81,7 +81,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Friend';
+  calendar.name = 'Assignments';
   calendar.color = successColor;
   calendar.bgColor = successLight;
   calendar.dragBgColor = successColor;
@@ -91,7 +91,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Travel';
+  calendar.name = 'Tutoring';
   calendar.color = warningColor;
   calendar.bgColor = warningLight;
   calendar.dragBgColor = warningColor;
@@ -101,7 +101,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'etc';
+  calendar.name = 'Team Meetups';
   calendar.color = secondaryColor;
   calendar.bgColor = cloudyBlue;
   calendar.dragBgColor = secondaryLight;
@@ -111,7 +111,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Birthdays';
+  calendar.name = 'Overdue';
   calendar.color = dangercolor;
   calendar.bgColor = dangerLight;
   calendar.dragBgColor = dangerLight;

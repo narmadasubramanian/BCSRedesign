@@ -51,17 +51,7 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'My Calendar';
-  calendar.color = infoColor;
-  calendar.bgColor = infoLight;
-  calendar.dragBgColor = infoColor;
-  calendar.borderColor = infoColor;
-  addCalendar(calendar);
-
-  calendar = new CalendarInfo();
-  id += 1;
-  calendar.id = String(id);
-  calendar.name = 'Company';
+  calendar.name = 'Class Sessions';
   calendar.color = primaryColor;
   calendar.bgColor = primaryLight;
   calendar.dragBgColor = primaryColor;
@@ -71,7 +61,28 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Family';
+  calendar.name = 'Assignment';
+  calendar.color = successColor;
+  calendar.bgColor = successLight;
+  calendar.dragBgColor = successColor;
+  calendar.borderColor = successColor;
+  addCalendar(calendar);
+
+  
+  calendar = new CalendarInfo();
+  id += 1;
+  calendar.id = String(id);
+  calendar.name = 'Overdue';
+  calendar.color = dangercolor;
+  calendar.bgColor = dangerLight;
+  calendar.dragBgColor = dangerLight;
+  calendar.borderColor = dangercolor;
+  addCalendar(calendar);
+
+  calendar = new CalendarInfo();
+  id += 1;
+  calendar.id = String(id);
+  calendar.name = 'Career Services';
   calendar.color = secondaryColor;
   calendar.bgColor = secondaryLight;
   calendar.dragBgColor = secondaryColor;
@@ -81,27 +92,17 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Friend';
-  calendar.color = successColor;
-  calendar.bgColor = successLight;
-  calendar.dragBgColor = successColor;
-  calendar.borderColor = successColor;
+  calendar.name = 'My Workshop';
+  calendar.color = infoColor;
+  calendar.bgColor = infoLight;
+  calendar.dragBgColor = infoColor;
+  calendar.borderColor = infoColor;
   addCalendar(calendar);
 
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Travel';
-  calendar.color = warningColor;
-  calendar.bgColor = warningLight;
-  calendar.dragBgColor = warningColor;
-  calendar.borderColor = warningColor;
-  addCalendar(calendar);
-
-  calendar = new CalendarInfo();
-  id += 1;
-  calendar.id = String(id);
-  calendar.name = 'etc';
+  calendar.name = 'Team Meetups';
   calendar.color = secondaryColor;
   calendar.bgColor = cloudyBlue;
   calendar.dragBgColor = secondaryLight;
@@ -111,11 +112,11 @@ function findCalendar(id) {
   calendar = new CalendarInfo();
   id += 1;
   calendar.id = String(id);
-  calendar.name = 'Birthdays';
-  calendar.color = dangercolor;
-  calendar.bgColor = dangerLight;
-  calendar.dragBgColor = dangerLight;
-  calendar.borderColor = dangercolor;
+  calendar.name = 'Tutoring Sessions';
+  calendar.color = warningColor;
+  calendar.bgColor = warningLight;
+  calendar.dragBgColor = warningColor;
+  calendar.borderColor = warningColor;
   addCalendar(calendar);
 
   calendar = new CalendarInfo();

@@ -1,0 +1,77 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.flex-container {
+	/* We first create a flex layout context */
+	display: flex;
+  
+	/* Then we define the flow direction 
+	   and if we allow the items to wrap 
+	 * Remember this is the same as:
+	 * flex-direction: row;
+	 * flex-wrap: wrap;
+	 */
+	flex-flow: row wrap;
+  
+	/* Then we define how is distributed the remaining space */
+	/* justify-content: space-around; */
+  }
+
+/* Pen-specific styles */
+/* html, body, section, div {
+  height: 100vh;
+} */
+
+#white-bkg {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1.00rem;
+  line-height: 150%;
+  padding-top: 10%;
+  /* text-shadow: 0 2px 2px #b6701e; */
+}
+
+/* article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+} */
+
+/* Pattern styles */
+.container {
+  display: grid;
+  padding-top: 100px;
+}
+
+.left-half {
+  /* background: #ff9e2c; */
+  grid-column: 1;
+}
+
+.right-half {
+  /* background: #b6701e; */
+  grid-column: 2;
+  padding-top: 20%;
+  box-align:center;
+  box-sizing:content-box;
+}
+
+.text-center {
+color: #A3AFBD;
+
+}
