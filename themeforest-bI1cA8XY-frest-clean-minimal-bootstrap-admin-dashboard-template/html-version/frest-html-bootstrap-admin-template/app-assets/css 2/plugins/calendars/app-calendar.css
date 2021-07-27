@@ -95,35 +95,35 @@
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="1"] .tui-full-calendar-calendar-dot {
-  background-color: #5A8DEE !important;
-}
-
-.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="2"] .tui-full-calendar-calendar-dot {
-  background-color: #39DA8A !important;
-}
-
-.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="3"] .tui-full-calendar-calendar-dot {
-  background-color: #FF5B5C !important;
-}
-
-.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="4"] .tui-full-calendar-calendar-dot {
-  background-color: #475F7B !important;
-}
-
-.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="5"] .tui-full-calendar-calendar-dot {
   background-color: #00CFDD !important;
 }
 
-.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="6"] .tui-full-calendar-calendar-dot {
-  background-color: #A3AFBD !important;
+.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="2"] .tui-full-calendar-calendar-dot {
+  background-color: #5A8DEE !important;
 }
 
-.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="7"] .tui-full-calendar-calendar-dot {
+.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="3"] .tui-full-calendar-calendar-dot {
+  background-color: #475F7B !important;
+}
+
+.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="4"] .tui-full-calendar-calendar-dot {
+  background-color: #39DA8A !important;
+}
+
+.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="5"] .tui-full-calendar-calendar-dot {
   background-color: #FDAC41 !important;
 }
 
+.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="6"] .tui-full-calendar-calendar-dot {
+  background-color: #475F7B !important;
+}
+
+.calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="7"] .tui-full-calendar-calendar-dot {
+  background-color: #FF5B5C !important;
+}
+
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-popup-section .tui-full-calendar-dropdown-menu li[data-calendar-id="8"] .tui-full-calendar-calendar-dot {
-  background-color: #E3EDFF !important;
+  background-color: #A3AFBD !important;
 }
 
 .calendar-wrapper .calendar-view .calendar-content .tui-full-calendar-popup .tui-full-calendar-popup-container .tui-full-calendar-section-button-save button {
